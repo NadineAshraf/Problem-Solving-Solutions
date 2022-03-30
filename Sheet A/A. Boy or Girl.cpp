@@ -11,7 +11,7 @@ int main()
 	cin>>name;
 	for(int i=1 ; i<=name.size() ; i++)
 	{
-      count=i;
+           count=i;
 	}
 	if(count%2 == 0)
 	{
@@ -21,5 +21,5 @@ int main()
 	{
 		cout<<"IGNORE HIM";
 	}
-	 return 0;
+        return 0;
 }
