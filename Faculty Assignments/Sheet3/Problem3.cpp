@@ -29,7 +29,6 @@ int main()
      }
      if(check == true)
      {
-         arr[i];
          cout<<arr[i]<<endl;  
          count++;
           sum+=arr[i];
