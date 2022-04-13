@@ -9,4 +9,4 @@ The goal of this sheet is to enhance algorthmic probem solving skills for both p
 Currenet Version V7.0 https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit#gid=1160016643
 
 # Faculty Assignments
-Answers of some problems 
+Answers of some problems in the sheets. This drive is for the sheets 
