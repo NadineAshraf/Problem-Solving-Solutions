@@ -1,22 +1,23 @@
 #include <iostream>
+#include <string>
 using namespace std;
+
 int main()
 {
-
-	int n,h,sum=0;
-	cin>>n>>h;
-	int arr[n];
-
-
-	for(int i=0 ; i<n ; i++)
-	{  cin>>arr[i];
-	     if(arr[i] <= h)
-	    	 sum=sum+1;
-	     else
-	    	 sum=sum+2;
-	}
-	cout<<sum;
-
-
-return 0;
+   int NoOfFriends,HeightOfFence,count=0;
+   cin>> NoOfFriends >> HeightOfFence;
+   int HeightOfEachFriend[NoOfFriends];
+   for(int i=0 ; i<NoOfFriends; i++)
+   cin>>HeightOfEachFriend[i];
+   for(int i=0 ; i<NoOfFriends; i++)
+  { 
+     if(HeightOfEachFriend[i]<=HeightOfFence)
+     count++;
+    else
+    count+=2;
+  }
+  cout<<count;
+   
+   
+    return 0;
 }
