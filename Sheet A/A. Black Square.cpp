@@ -12,7 +12,7 @@ int main()
     for(int i=0; i<s.size(); i++)
     {
     
-    sum+= arr[int(s[i]-48) - 1];
+    sum+= arr[s[i]-48 - 1];
     }
     cout<<sum;
     return 0;
