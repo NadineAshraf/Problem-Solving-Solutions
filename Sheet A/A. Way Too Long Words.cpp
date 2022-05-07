@@ -10,7 +10,6 @@ string int_to_str(int x) {
 int main()
 {
     int n;
-    bool check=true;
     cin>>n;
     string s, arr[n];
   
