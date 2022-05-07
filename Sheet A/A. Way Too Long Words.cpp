@@ -1,26 +1,34 @@
 #include <iostream>
 #include <string>
+#include <sstream>
 using namespace std;
-
+string int_to_str(int x) {
+   stringstream ss;
+   ss << x;
+   return ss.str();
+}
 int main()
 {
     int n;
     bool check=true;
     cin>>n;
     string s, arr[n];
+  
     for(int i=0; i<n; i++)
    {
        cin>>s;
+       
       if(s.size()<10)
-     // check=true;
-       cout<<s;
+      arr[i]={s};
+     
     else
     {
-        //check=false;
-       cout<<s[0]<<s.size()-2<<s[s.size()-1]<<"\n";
-        
+        arr[i]=s[0]+int_to_str(s.size()-2)+s[s.size()-1];
+       
     }
     }
+    for(int i=0; i<n; i++)
+    cout<<arr[i]<<"\n";
 
     return 0;
 }
