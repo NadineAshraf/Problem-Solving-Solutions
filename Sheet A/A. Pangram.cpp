@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <string>
 using namespace std;
 
 int
@@ -7,6 +7,7 @@ main ()
 {
   int n, i, count;
   string s, lower;
+  char letter ='a';
   cin >> n >> s;
   for (int j = 0; j < s.size (); j++)
     {
@@ -28,27 +29,21 @@ main ()
       break;
     }
 
-  for (int i = 0; i < s.size (); i++)
-    {
+ if (n>=26) {
+   for (int i = 0 ; i<26 ; i ++ ) {
+        if (s.find(letter) != -1) {
+        letter ++;
+        }
+    else {
+           cout << "NO";
+           return 0;
+         }
+   }
 
-      if (int (s[i]) > 96 && int (s[i]) < 123)
-	{
-	    for(int i=0;i<s.size();i++)
-      {
-          for(int j=0; j<s.size()-1; j++)
-      {
-          if(int(s[i])==int(s[j+1]))
-	      s.size()=s.size()-1;
-          
-      }
-      
-	}
-    }
-    
-    }
-  if (s.size() == 26)
-    cout << "YES";
-  else
+   cout << "YES";
+ }
+ else {
     cout << "NO";
-  return 0;
-}
+ }
+
+ return 0;
