@@ -13,6 +13,11 @@ int main()
  for(int i=0 ; i<n ; i++)
  {
      bool check=true;
+     if(arr[i] == 1 || arr[i] == 0)
+     {
+         check=false;
+         
+     }
      for(int j=2; j<arr[i];j++)
      {
          if(arr[i]==2)
@@ -31,6 +36,10 @@ int main()
  }
  
     
+    
+ 
+    return 0;
+}
     
  
     return 0;
