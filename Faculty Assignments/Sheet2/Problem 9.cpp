@@ -19,7 +19,7 @@ int main()
 
 	       }
 
-	       break;
+	     
 
 	   }
 	    if(check == false)
@@ -34,7 +34,7 @@ int main()
 	           check=false;
 	           cout<<"There is a Misunderstanding";
 	       }
-	       break;
+	     
 	   }
 	   if(check == true)
 	   cout<<"Welcome";
