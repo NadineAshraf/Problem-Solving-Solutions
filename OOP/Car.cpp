@@ -13,10 +13,21 @@ class Car
     string getMaker();
     void setModel(int m);
     int getModel();
-    
+   Car();
+   ~Car();
     
 };
-
+Car::Car() //Initialization
+{
+    maker="Honda";
+    model= 2018;
+    color="White";
+    
+}
+Car::~Car()
+{
+    
+}
 void Car::setMaker(string m)
 {
     maker= m;
@@ -36,8 +47,6 @@ int Car::getModel()
 int main()
 {
     Car c1;
-    c1.setMaker("Honda");
-    c1.setModel(1028);
     cout<<"This Car made by "<<c1.getMaker()<<"\n";
     cout<<"This Car model is "<<c1.getModel()<<"\n";
     return 0;
