@@ -1,4 +1,5 @@
 
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -13,13 +14,13 @@ class Car
     string getMaker();
     void setModel(int m);
     int getModel();
-   Car();
+   Car(string m,int mo , string c);
    ~Car();
     
 };
-Car::Car():maker("Honda"),model(2019),color("White") //Initialization
+Car::Car(string m,int mo , string c):maker(m),model(mo),color(c) //Initialization
 {
-    
+  
 }
 Car::~Car()
 {
@@ -43,8 +44,12 @@ int Car::getModel()
 }
 int main()
 {
-    Car c1;
+    Car c1("Honda",2020, "White");
     cout<<"This Car made by "<<c1.getMaker()<<"\n";
     cout<<"This Car model is "<<c1.getModel()<<"\n";
+    
+    Car c2("BMW",2022, "Black");
+    cout<<"This Car made by "<<c2.getMaker()<<"\n";
+    cout<<"This Car model is "<<c2.getModel()<<"\n";
     return 0;
 }
