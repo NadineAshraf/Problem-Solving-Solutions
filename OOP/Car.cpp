@@ -1,5 +1,6 @@
 
 
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -24,7 +25,7 @@ Car::Car(string m,int mo , string c):maker(m),model(mo),color(c) //Initializatio
 }
 Car::~Car()
 {
-    
+    cout<<"Exit"<<"\n";
 }
 void Car::setMaker(string m)
 {
