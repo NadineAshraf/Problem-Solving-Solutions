@@ -17,11 +17,8 @@ class Car
    ~Car();
     
 };
-Car::Car() //Initialization
+Car::Car():maker("Honda"),model(2019),color("White") //Initialization
 {
-    maker="Honda";
-    model= 2018;
-    color="White";
     
 }
 Car::~Car()
