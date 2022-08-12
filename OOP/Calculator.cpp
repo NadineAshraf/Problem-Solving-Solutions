@@ -4,8 +4,6 @@
 using namespace std;
 class Calculator
 {
-    private:
-   
     public:
    int Add(int num1, int num2);   // Overloading all of them is called Add
    int Add(int num1, int num2, int num3);
