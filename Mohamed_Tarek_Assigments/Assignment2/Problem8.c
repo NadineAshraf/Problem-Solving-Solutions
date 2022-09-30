@@ -2,7 +2,7 @@
 
 void Prime(int num1, int num2)
 {
-    int i,j;
+    int i;
     printf("The prime numbers are:");
    for(i=num1; i<num2;i++)
    {
