@@ -1,14 +1,18 @@
- 
 #include <stdio.h>
 
 void Holes(int number)
 {
     int data,count=0,flag=0;
-  
+  if(number ==0)
+  {
+      count++;
+  }
+ else
+ {
       while(number !=0)
      {
           data = number%10;
-        if(data ==0 || data == 4 || data == 6 || data == 9)
+        if(data == 4 || data == 6 || data == 9)
         {
             count++;
         }
@@ -22,9 +26,10 @@ void Holes(int number)
        }
          number/=10;
      }
-    printf("The number of holes: %d ",count);
+ 
 }
-
+   printf("The number of holes: %d ",count);
+}
 
 int main(void)
 {
