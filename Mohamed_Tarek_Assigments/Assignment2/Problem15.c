@@ -3,8 +3,8 @@
 
 void CountOnes(unsigned int number)
 {
-    int count = 0,result=0;
-    while(number !=0)
+    int count = 0,result=0,i;
+    for(i=0; i<32;i++)
     {
        result= number%10;
        if(result ==1)
