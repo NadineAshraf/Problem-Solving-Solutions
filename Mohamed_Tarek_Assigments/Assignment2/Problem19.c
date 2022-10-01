@@ -1,15 +1,16 @@
 
+
 #include <stdio.h>
 
 int NoIsPowerOf3(int number)
 {
     if(number == 1 || number == 0)
     {
-        return 0;
+        return 1;
     }
     else
     {
-        while(number!=0)
+        while(1)
         {
           if(number%3 == 0)
            {
