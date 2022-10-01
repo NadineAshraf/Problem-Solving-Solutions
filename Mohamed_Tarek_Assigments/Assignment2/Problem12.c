@@ -27,7 +27,7 @@ void Temperature(int degree)
 }
 int main()
 {
-    int x,result;
+    int x;
     printf("Input = ");
     scanf("%d",&x);
     Temperature(x);
