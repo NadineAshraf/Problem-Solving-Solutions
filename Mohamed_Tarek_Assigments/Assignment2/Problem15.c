@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-void CountOnes(int number)
+void CountOnes(unsigned int number)
 {
     int count = 0,result=0;
     while(number !=0)
@@ -21,7 +21,7 @@ void CountOnes(int number)
 
 int main()
 {
-    int n;
+    unsigned int n;
     printf("Please enter the number: ");
     scanf("%d",&n);
     CountOnes(n);
