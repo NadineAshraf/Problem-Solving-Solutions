@@ -4,7 +4,7 @@
 int LinearSearch(int arr[],int number)
 {
     int i,flag=0;
-  for(i=size;i>0;i--)
+  for(i=size;i>=0;i--)
   {
       if(number == arr[i])
       {
