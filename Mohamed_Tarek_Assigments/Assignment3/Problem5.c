@@ -33,6 +33,14 @@ int main(void)
 	    scanf("%d",&arr[i]);
 	}
 	index = LinearSearch(arr,num);
-	printf("The index = %d",index);
+	printf("The index = %d\n",index);
+	if(index == -1)
+	{
+	    printf("The number is not found");
+	}
+	else
+	{
+	    printf("The number is found");
+	}
 	return 0;
 }
