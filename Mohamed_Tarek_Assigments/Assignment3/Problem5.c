@@ -17,6 +17,10 @@ int LinearSearch(int arr[],int number)
   {
       return i;
   }
+  else 
+  {
+      return -1;
+  }
 }
 int main(void)
 {
