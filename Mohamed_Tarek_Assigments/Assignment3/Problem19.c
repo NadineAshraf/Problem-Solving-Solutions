@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 
-int Identical_Array(int array1_size, int *array1, int array2_size, int *array2)
+int Identical_Array(int array_size, int *array1, int *array2)
 {
   int i;
-  for(i=0; i<array1_size; i++)
+  for(i=0; i<array_size; i++)
   {
       if(array1[i] == array2[i])
       {
@@ -34,7 +34,7 @@ int main()
         scanf("%d",&arr2[i]);
     }
   
- result = Identical_Array(size, arr1, size, arr2);
+ result = Identical_Array(size, arr1, arr2);
  if(result == 0)
  {
    printf("The two arrays are identical");
@@ -48,3 +48,4 @@ int main()
   
     return 0;
 }
+
