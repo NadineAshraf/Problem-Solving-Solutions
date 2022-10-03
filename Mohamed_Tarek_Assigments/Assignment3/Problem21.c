@@ -1,7 +1,7 @@
 #include <stdio.h>
  static int size;
 int OutputArray[256];
-void Identical_Array(int LowerValue, int HigherValue , int *arr)
+void Range(int LowerValue, int HigherValue , int *arr)
 {
   int i,count=0,ReversedNo;
   
@@ -48,7 +48,7 @@ int main()
     scanf("%d",&n2);
     int arr[size];
 
-    Identical_Array(n1,n2,arr);
+   Range(n1,n2,arr);
    
     return 0;
 }
