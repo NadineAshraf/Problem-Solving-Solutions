@@ -1,16 +1,29 @@
 #include <stdio.h>
-void main(void)
-{ int id=1234,password=1234,id1,pass;
-	char username[]="ahmed";
-	scanf("%d",&id1);
-	if(id1==id)
-	 {scanf("%d",&pass);
-	  if(password==pass)
-	  printf("%s",username);
-	  else 
-	  printf("Incorrect password");
-	 }
-	 else
-	 printf("Incorrect id");	  
-	
+
+int main()
+{
+   int id=1234,password=1234,id1,pass;
+   char username[]="Ahmed";
+   printf("Please enter your ID: ");
+   scanf("%d",&id1);
+   if(id == id1)
+   {
+       printf("Please enter your password: ");
+       scanf("%d",&pass);
+       if(password == pass)
+       {
+           printf("Username is %s",username);
+       }
+       else
+       {
+          printf("Incorrect Password");
+       }
+   }
+   else
+   {
+       printf("Incorrect ID");
+   }
+   
+   
+    return 0;
 }
