@@ -1,17 +1,24 @@
 #include <stdio.h>
-void main(void)
-{int x,y,z,max;
-	printf("Enter number 1:");
-	scanf("%d",&x);
-	printf("Enter number 2:");
-	scanf("%d",&y);
-	printf("Enter number 3:");
-	scanf("%d",&z);
-	if(x>y && x>z)
-	printf("Maximum number is %d",max=x);
-	else if(y>x && y>z)
-	printf("Maximum number is %d",max=y);
-	else
-	printf("Maximum number is %d",max=z);
-	
+
+int main()
+{
+    int i,arr[3],max=0,flag=0;
+    for(i=0; i<3; i++)
+    {
+        printf("Enter number %d: ",i+1);
+        scanf("%d",&arr[i]);
+    }
+    for(i=0; i<3; i++)
+    {
+        if(arr[i]> max)
+        {
+            max = arr[i];
+            flag = 1;
+        }
+    }
+    if(flag == 1)
+    {
+        printf("Maximum number is %d",max);
+    }
+    return 0;
 }
