@@ -4,7 +4,7 @@ void main(void)
 	int passed=0,failed=0,max,min,sum=0;
 	for(int i=0;i<=2;i++) //loop for classes
 	{ for(int j=0;j<10;j++) //loop for students
-		{ printf("Enter the grade of student no %d in class no %d ",j+1,i+1);
+		{ printf("Enter the grade of student no %d in class no %d: ",j+1,i+1);
 			if(i==0)
 			scanf("%d", &class1[j]);
 			if(i==1)
