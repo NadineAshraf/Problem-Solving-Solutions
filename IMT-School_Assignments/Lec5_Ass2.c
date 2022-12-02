@@ -60,7 +60,7 @@ void main(void)
 	}	
 
 } 
-printf("No. of passed students = %d and No. of failed students = %d\n ",passed,failed);
+printf("No. of passed students = %d and No. of failed students = %d\n",passed,failed);
 printf("Highest grade is %d\n",max);
 printf("Lowest grade is %d\n",min);
 printf("Average = %d",sum/30);
