@@ -1,34 +1,46 @@
 #include <stdio.h>
+#define Size 4
 void Max(int *arr)
 {
-   int i,j,temp;
-   for(i=0; i<4; i++)
-   {
-       for(j=0; j<3; j++)
+   int i,j,temp,flag=0;
+   for(i=0; i<Size; i++)
+   {  flag=1;
+       for(j=0; j<Size-1; j++)
        {
            if(arr[j]<arr[j+1])
            {
                temp = arr[j];
                arr[j] = arr[j+1];
                arr[j+1] = temp;
+               flag=0;
            }
+       }
+       if(flag == 1)
+       {
+           break;
        }
    }
    printf("Max no. = %d\n",arr[0]);
 }
 void Min(int *arr)
 {
-     int i,j,temp;
-   for(i=0; i<4; i++)
+     int i,j,temp,flag=0;
+   for(i=0; i<Size; i++)
    {
-       for(j=0; j<3; j++)
+       flag=1;
+       for(j=0; j<Size-1; j++)
        {
            if(arr[j]>arr[j+1])
            {
                temp = arr[j];
                arr[j] = arr[j+1];
                arr[j+1] = temp;
+               flag=0;
            }
+       }
+       if(flag == 1)
+       {
+           break;
        }
    }
    printf("Min no. = %d\n",arr[0]);
