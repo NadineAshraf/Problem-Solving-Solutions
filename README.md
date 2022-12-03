@@ -10,3 +10,6 @@ Currenet Version V7.0 https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8
 
 # Faculty Assignments
 Answers of some problems in the sheets. This drive is for the sheets in Faculty of Engineering Fayoum University
+
+# ITI Assignments
+You can find more solved problems in this repo --> https://github.com/NadineAshraf/ITI_EmbeddedSystems_4Months.git
