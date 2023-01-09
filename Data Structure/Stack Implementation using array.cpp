@@ -54,12 +54,17 @@ void Display(void)
        }
       
     }
+    
 }
 int main()
 {
     Push(5);
     Push(6);
     Push(7);
+    Display();
+    Pop();
+    Display();
+    Peek();
     Display();
     return 0;
 }
