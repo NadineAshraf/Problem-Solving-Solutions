@@ -64,7 +64,7 @@ int main()
     Display();
     Pop();
     Display();
-    Peek();
+    cout<<"Peek ="<<Peek()<<endl;
     Display();
     return 0;
 }
