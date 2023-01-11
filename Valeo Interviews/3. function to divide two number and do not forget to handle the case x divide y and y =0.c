@@ -1,11 +1,11 @@
 #include <stdio.h>
-void Divide(int num1, int num2)
+void Divide(float num1, float num2)
 {
     float result;
     if(num2 !=0)
     {
         result = num1/num2;
-        printf("%.2f",result);
+        printf("%f",result);
     }
     else
     {
@@ -15,7 +15,7 @@ void Divide(int num1, int num2)
 
 int main()
 {
-  Divide(25, 5);
+  Divide(8, 9);
   
    
 
