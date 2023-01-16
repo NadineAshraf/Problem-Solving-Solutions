@@ -1,27 +1,26 @@
-int main(void)
+#include <stdio.h>
+
+int main()
 {
-    int row,col,rows_cols;
-
-    printf("Enter number of rows_cols: ");
-    scanf("%d",&rows_cols);
-    printf("\n");
-
-    /* Loop for each row */
-    for(row = 0;row < rows_cols;row++)
-    {
-    	/* Loop to draw * or space in each column in this row */
-        for(col = 0;col < rows_cols;col++)
-        {
-            if( (col==row) || (col==rows_cols-row-1) )
-            {
-                printf(" *");
-            }
-            else
-            {
-                printf(" ");
-            }
-        }
-        printf("\n");
-    }
+   int row,col,row_col;
+   printf("Enter number of row_cols: ");
+   scanf("%d",&row_col);
+   printf("\n");
+   for(row=0; row<row_col; row++)
+   {
+       for(col=0; col<row_col; col++)
+       {
+           if(col == row || col == row_col-row-1 )
+           {
+               printf("*");
+           }
+           else
+           {
+               printf(" ");
+           }
+       }
+       printf("\n");
+   }
+   
     return 0;
 }
