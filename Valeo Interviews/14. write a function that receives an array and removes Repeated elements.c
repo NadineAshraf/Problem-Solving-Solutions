@@ -1,5 +1,4 @@
-#include <stdio.h>
-void BinarySearch(int *arr, int size)
+void BubbleSorting(int *arr, int size)
 {
     int flag=0,i=0,j=0,temp;
     for(j=0; j<size; j++)
@@ -53,14 +52,14 @@ int main()
     int s,i=0;
     int arr[] = {5,4,3,2,3,1,7,7};
     s = sizeof(arr)/sizeof(arr[0]);
-    BinarySearch(arr,s);
-    printf("Binary Search array: ");
+    BubbleSorting(arr,s);
+    printf("Bubble Sorting array: ");
      for(i=0; i<s; i++)
     {
        printf("%d ",arr[i]);
     }
     
-    printf("\nDuplication array: ");
+    printf("\nRemove Duplication array: ");
      s = RemoveDuplication(arr,s);
      for(i=0; i<s; i++)
     {
