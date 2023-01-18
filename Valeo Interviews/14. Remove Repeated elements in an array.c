@@ -7,13 +7,17 @@ int main()
     int i=0, j=0;
     for(j=0; j<n; j++)
     {
-        for(i=j+1; i<n-1; i++)
-        {
-            if(arr[j] == arr[i])
+          if(arr[j] != -1)
+          {
+            for(i=j+1; i<n-1; i++)
             {
-                arr[i] = -1;
+                if(arr[j] == arr[i])
+                {
+                    arr[i] = -1;
+                }
             }
-        }
+          }
+        
     }
     for(i=0; i<n; i++)
     {
