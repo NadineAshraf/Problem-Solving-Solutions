@@ -1,3 +1,4 @@
+#include <stdio.h>
 void BubbleSorting(int *arr, int size)
 {
     int flag=0,i=0,j=0,temp;
