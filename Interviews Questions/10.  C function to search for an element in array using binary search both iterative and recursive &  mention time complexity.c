@@ -3,7 +3,7 @@ int BinarySearch(int *arr,int num, int size)
 {
    int start=0, end = size -1 ,mid,index;
    int i=0;
-   while(arr[i] != '\0')
+   while(i<size)
    {
        if(start <= end)
        {
