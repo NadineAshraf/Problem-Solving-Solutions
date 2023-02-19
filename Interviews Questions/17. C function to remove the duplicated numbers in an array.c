@@ -4,7 +4,7 @@ void RemoveDuplication(int *arr,int size)
     int i=0,j=0;
     for(i=0; i<size; i++)
     {
-        if(arr[j] != -1)
+        if(arr[i] != -1)
         {
            for(j=i+1; j<size; j++)
           {
