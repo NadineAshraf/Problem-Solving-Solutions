@@ -10,7 +10,7 @@ int main()
     int flag = 0;
     while(num>0)
     {
-        if(num % 2)
+        if(num & 1)
         {
             if(count>max)
             {
