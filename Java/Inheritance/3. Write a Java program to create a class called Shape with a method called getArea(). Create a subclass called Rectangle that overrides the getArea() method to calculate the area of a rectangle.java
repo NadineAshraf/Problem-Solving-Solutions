@@ -1,11 +1,11 @@
-public class Shape
+public class Shape //Shape.java
 {
     public double getArea()
     {
         return 0.0;
     }
 }
-public class Rectangle extends Shape
+public class Rectangle extends Shape //Rectangle.java
 {
     private double length;
     private double width;
@@ -20,7 +20,7 @@ public class Rectangle extends Shape
         return length*width;
     }
 }
-    public class Main{
+    public class Main{   // Main.java
  public static void main(String[] args) {
 Rectangle rectangle = new Rectangle(3.0,10.0);
  double area = rectangle.getArea();
