@@ -13,3 +13,6 @@ Answers of some problems in the sheets. This drive is for the sheets in Faculty 
 
 # ITI Assignments
 You can find more solved problems in this repo --> https://github.com/NadineAshraf/ITI_EmbeddedSystems_4Months.git
+
+# Java Problem Solving
+https://www.w3resource.com/java-exercises/basic/index.php
