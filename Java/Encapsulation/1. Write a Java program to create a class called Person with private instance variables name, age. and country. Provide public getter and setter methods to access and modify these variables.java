@@ -1,4 +1,4 @@
-public Person //Person.java
+class Person //Person.java
 {
     private String name;
     private int age;
