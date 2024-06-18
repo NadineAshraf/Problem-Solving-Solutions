@@ -16,3 +16,6 @@ You can find more solved problems in this repo --> https://github.com/NadineAshr
 
 # Java Problem Solving
 https://www.w3resource.com/java-exercises/basic/index.php
+
+# Python Problem Solving
+https://www.w3resource.com/python-exercises/python-basic-exercises.php
