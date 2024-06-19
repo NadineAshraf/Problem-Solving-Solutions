@@ -1,0 +1,8 @@
+color_set = set()
+print(color_set)
+print("\nAdd single element: ")
+color_set.add("Red")
+print(color_set)
+print("\nAdd multiple element: ")
+color_set.update(["Blue","Green"])
+print(color_set)
