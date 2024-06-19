@@ -1,0 +1,13 @@
+setx = set(["green","blue"])
+sety = set(["blue","red"])
+setz = setx.difference(sety)
+print(setz)
+sett = sety.difference(setx)
+print(sett)
+
+set1 = set([1,2,3,4,5,6])
+set2 = set([1,5,7,8,9])
+s3 = set1.difference(set2)
+print(s3)
+s4 = set2.difference(set1)
+print(s4)
